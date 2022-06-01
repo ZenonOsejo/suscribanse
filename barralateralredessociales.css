@@ -1,0 +1,40 @@
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100%;
+}
+.bx {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.bxl-facebook-circle {
+	background: #2E406E;
+}
+.bxl-instagram {
+	background: #b90038;
+}
+.bxl-youtube {
+	background: #cf2219;
+}
+.bxl-whatsapp {
+	background: #25d366;
+}
+.bx:first-child {
+	border-radius: 1rem 0 0 0;
+}
+.bx:last-child {
+	border-radius: 0 0 0 1rem;
+}
+.bx:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
